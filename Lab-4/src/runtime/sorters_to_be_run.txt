@@ -1,0 +1,5 @@
+BubbleSort
+InsertionSort
+SelectionSort
+BubbleSort2
+BubbleSort1

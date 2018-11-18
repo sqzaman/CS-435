@@ -1,6 +1,8 @@
-package mum.edu.lab4.problem1;
+package sortroutines;
 
-public class BubbleSort1 {
+import runtime.Sorter;
+
+public class BubbleSort1  extends Sorter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,6 +35,16 @@ public class BubbleSort1 {
         for (int i=0; i<n; ++i) 
             System.out.print(arr[i] + " "); 
         System.out.println(); 
-    } 
+    }
+
+	int[] arr;
+	@Override
+	public int[] sort(int[] arr) {
+		// TODO Auto-generated method stub
+		this.arr = arr;
+		bubbleSort(arr);
+		return arr;
+	}
+
 
 }
